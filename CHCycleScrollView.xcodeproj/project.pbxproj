@@ -15,6 +15,7 @@
 		FE3631902084AA0900B856A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE36318F2084AA0900B856A8 /* main.m */; };
 		FE36319A2084AA0900B856A8 /* CHCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3631992084AA0900B856A8 /* CHCycleScrollViewTests.m */; };
 		FE3631A52084AA0900B856A8 /* CHCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3631A42084AA0900B856A8 /* CHCycleScrollViewUITests.m */; };
+		FE3631B52084AA3F00B856A8 /* CHCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3631B42084AA3F00B856A8 /* CHCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE3631A02084AA0900B856A8 /* CHCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3631A42084AA0900B856A8 /* CHCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHCycleScrollViewUITests.m; sourceTree = "<group>"; };
 		FE3631A62084AA0900B856A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3631B32084AA3E00B856A8 /* CHCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCycleScrollView.h; sourceTree = "<group>"; };
+		FE3631B42084AA3F00B856A8 /* CHCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		FE36317F2084AA0900B856A8 /* CHCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				FE3631B22084AA3200B856A8 /* CHCycleScrollView */,
 				FE3631802084AA0900B856A8 /* AppDelegate.h */,
 				FE3631812084AA0900B856A8 /* AppDelegate.m */,
 				FE3631832084AA0900B856A8 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				FE3631A62084AA0900B856A8 /* Info.plist */,
 			);
 			path = CHCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		FE3631B22084AA3200B856A8 /* CHCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FE3631B32084AA3E00B856A8 /* CHCycleScrollView.h */,
+				FE3631B42084AA3F00B856A8 /* CHCycleScrollView.m */,
+			);
+			path = CHCycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				FE3631852084AA0900B856A8 /* ViewController.m in Sources */,
 				FE3631902084AA0900B856A8 /* main.m in Sources */,
 				FE3631822084AA0900B856A8 /* AppDelegate.m in Sources */,
+				FE3631B52084AA3F00B856A8 /* CHCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

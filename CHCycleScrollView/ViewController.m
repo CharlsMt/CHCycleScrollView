@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "CHCycleScrollView.h"
+@interface ViewController ()<CHCycleScrollViewDelegate>
 
 @end
 
@@ -17,6 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    CHCycleScrollView *cycleScrollView = [[CHCycleScrollView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 200) imageGroups:@[@"h1",@"h2",@"h3",@"h4"]];
+    
+    cycleScrollView.delegate = self;
+    [self.view addSubview:cycleScrollView];
+}
+
+
+-(void)cycleScrollView:(CHCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index{
+    
+    NSLog(@"index = %ld",index);
+    
 }
 
 
